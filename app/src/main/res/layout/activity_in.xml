@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:padding="0dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="437dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/imageview"
+ />
+
+        <ImageView
+            android:id="@+id/lemon1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/lemon" />
+
+        <ImageView
+            android:id="@+id/lemon2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/lemon" />
+
+        <ImageView
+            android:id="@+id/lemon3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/lemon" />
+
+        <ImageView
+            android:id="@+id/candy1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/candy" />
+
+        <ImageView
+            android:id="@+id/candy2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/candy" />
+
+        <ImageView
+            android:id="@+id/candy3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/candy" />
+
+        <ImageView
+            android:id="@+id/beetroot1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/beetroot" />
+
+        <ImageView
+            android:id="@+id/beetroot2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/beetroot" />
+
+        <ImageView
+            android:id="@+id/beetroot3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/beetroot" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/a_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/b_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/c_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
